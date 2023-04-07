@@ -8,12 +8,12 @@ const {
 } = require("../controllers/user.controllers");
 
 //READ
-router.get("/get/", getUsers);
+router.get("/", getUsers);
 //CREATE
-router.post("/post/", createUser);
+router.post("/", createUser);
 //UPDATE
-router.put("/put/:id", updateUser);
+router.put("/:id", updateUser);
 //DELETE
-router.delete("/delete/:id", deleteUser);
+router.delete("/:id", deleteUser);
 
 module.exports = router;
