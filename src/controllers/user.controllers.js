@@ -21,8 +21,8 @@ const createUser = (req, res) => {
   users.push(user);
   return res.json({
     ok: true,
-    msg: "Usuarios obtenidos",
-    data: users,
+    msg: "Usuario agregado",
+    data: user,
   });
 };
 
@@ -39,7 +39,7 @@ const updateUser = (req, res) => {
   return res.json({
     ok: true,
     msg: "Usuario actualizado",
-    data: users,
+    data: user,
   });
 };
 
@@ -54,7 +54,7 @@ const deleteUser = (req, res) => {
   return res.json({
     ok: true,
     msg: "Usuario eliminado",
-    data: users,
+    data: user,
   });
 };
 
