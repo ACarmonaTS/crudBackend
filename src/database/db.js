@@ -1,8 +1,8 @@
 const users = [
   {
     id: "1",
-    name: "Alex",
-    curso: "C12",
+    name: "El Prrukis legendario y ancestral es mi carnal :v",
+    curso: "Eduardo Carmona :v",
   },
 ];
 
